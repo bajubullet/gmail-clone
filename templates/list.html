@@ -1,0 +1,9 @@
+<div id="emailContainer" class="span10">
+	<div class="well well-small message-preview" ng-repeat="email in emails" ng-click="go('/edit/{{email.id}}')">
+		<span>
+			<b>{{email.from}}</b>
+			{{email.content}}
+			<span class="timestamp">{{email.timestamp}} ago</span>
+		</span>
+	</div>
+</div>

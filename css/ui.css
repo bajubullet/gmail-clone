@@ -1,0 +1,12 @@
+.message-preview {
+	margin-bottom: 0px;
+}
+
+.message-preview:hover {
+	background-color: #ddd;
+}
+
+.message-preview .timestamp {
+	text-decoration: big;
+	float: right;
+}
