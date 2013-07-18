@@ -45,7 +45,7 @@ function ListCtrl($scope, $location, SimpleFactory) {
 	$scope.emails = SimpleFactory.getEmails();
 
 	$scope.go = function(hash) {
-		$location.hash(hash);
+		$location.path(hash);
 	};
 }
 
